@@ -1,0 +1,21 @@
+{
+  "name": "postcss-dynamic-custom-properties",
+  "version": "0.0.1",
+  "description": "PostCSS plugin for dynamic custom properties",
+  "author": "Ryo Ikarashi <me@ryoikarashi.com>",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "variables",
+    "custom-properties",
+    "dynamic-custom-properties",
+    "override-custom-properties",
+    "vars"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-postcss": "^6.0.0"
+  }
+}
