@@ -42,7 +42,7 @@ module.exports = postcss.plugin('postcss-dynamic-custom-properties', function (o
 
 						if (decl.value.indexOf('var(' + variableName) !== -1) {
 							var variableValue = rootClassInfo[className].vars[variableName];
-							var declValue = decl.value.replace('var(' + variableName, variableValue);
+							var declValue = decl.value.replace('var(' + variableName + ')', variableValue);
 							if(rule.selector !== ":root") {
 								var newRuleWithoutDecl = rule.clone({selector: '.' + className + ' ' + rule.selector}).removeAll();
 								var newDecl = decl.clone({prop: decl.prop, value: declValue});
