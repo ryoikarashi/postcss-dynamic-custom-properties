@@ -1,6 +1,6 @@
 {
   "name": "postcss-dynamic-custom-properties",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "PostCSS plugin for dynamic custom properties",
   "author": "Ryo Ikarashi <me@ryoikarashi.com>",
   "keywords": [
